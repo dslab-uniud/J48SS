@@ -34,9 +34,14 @@ All attributes already come with their default values, although some tuning shou
 
 More information can be found at:
 
-Andrea Brunello, Enrico Marzano, Angelo Montanari, and Guido Sciavicco - J48SS: A Novel Decision Tree Approach for the Handling of Sequential and Time Series Data. MDPI, 2019
+```
+Andrea Brunello, Enrico Marzano, Angelo Montanari, and Guido Sciavicco
+J48SS: A Novel Decision Tree Approach for the Handling of Sequential and Time Series Data.
+MDPI, 2019
+```
 
 Please cite the work as:
+
 ```
 @article{brunello2019j48ss,
   title={J48SS: A novel decision tree approach for the handling of sequential and time series data},
