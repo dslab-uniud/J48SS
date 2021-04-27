@@ -10,7 +10,7 @@ For what concerns sequential and time series features, they are encoded as strin
    - as for the sequence, it should be encoded as, for instance: ‘A,B,C>B,A>D>…’, that represents a sequence with itemset {A,B,C} followed by itemset {B,A}, followed by {D}. For instance, for textual data the string "this is a string" should be encoded as 'this>is>a>string'
  - time series:
    - the name of the attribute should begin with "TS_"
-   - as for the time series, it should be encoded as, for instance: ‘1.53,-2.5,3.6, …’
+   - as for the time series, it should be encoded as, for instance: ‘1.53,-2.5,3.6, …’. Currently, no multivariate time series are supported. Please encode them using different attributes.
 
 Of course, multiple sequential and time series attributes may be present in the dataset.
 
