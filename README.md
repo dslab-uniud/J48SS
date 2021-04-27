@@ -18,12 +18,12 @@ J48SS is based on J48, thus it inherits all its parameters. In addition, it also
   - for sequential attributes:
     - maxGap: the max gap between two itemsets of a pattern. If set to 1, only patterns of contiguous itemsets will be found (no gap). If "max gap" is set to N, a gap of N-1 itemsets is allowed between two consecutive itemsets of a pattern. The larger the gap, the (considerably) slower the algorithm
     - maxPatternLength: maximum pattern length in terms of itemset count
-    - minimumSupport: minimum support to use in the pattern extraction algorithm for sequential attributes (between 0 and 1)
+    - minimumSupport: minimum support that the extracted sequential patterns must have (between 0 and 1)
   - for time series attributes:
     - crossoverP: crossover probability of the genetic algorithm  
     - mutationP: mutation probability of the genetic algorithm 
     - numEvals: number of evaluations performed by the genetic algorithm
-    - popSize: population size of the genetic algorithm used 
+    - popSize: population size of the genetic algorithm  
     - seed: seed used by the genetic algorithm
   - common attributes:
     - patternWeight: weight to use to evaluate the patterns (simplicity vs accuracy)
