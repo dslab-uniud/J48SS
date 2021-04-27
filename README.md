@@ -2,6 +2,7 @@
 
 This repository contains the JAR file of WEKA 3.9.1, modified to contain J48SS decision tree classifier.
 The decision tree is capable of handling categorical, numerical, time series and sequential (e.g., text) data in a seamless way, during the same execution cycle in order to establish a prediction.
+The model can be found under "trees.J48SS".
 
 ARFF files used by the algorithm are structured as usual.
 For what concerns sequential and time series features, they are encoded as string attributes, following the conventions:
