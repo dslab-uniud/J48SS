@@ -1,0 +1,12 @@
+@relation dataset_spmf_labeled_esteso
+
+@attribute TS_timeseries string
+@attribute class_label {si,no}
+
+@data
+'1.99,3.362,3.9,7.436',si
+'7.53,6.534,3.352,1.1231',no
+'9.87,6.43,4.325,2.2134',no
+'1.241,2.325,5.352,7.457,9.5436,9.999',si
+'1.35,3.2534,5.346,7.346263,8.63547,9.7456',si
+
