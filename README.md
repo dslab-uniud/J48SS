@@ -7,7 +7,7 @@ ARFF files used by the algorithm are structured as usual.
 For what concerns sequential and time series features, they are encoded as string attributes, following the conventions:
  - sequences:
    - the name of the attribute should begin with "SEQ_"
-   - as for the sequence, it should be encoded as, for instance: ‘A,B,C>B,A>D>…’, that represents a sequence with itemset {A,B,C} followed by itemset {B,A}, followed by {A}. For instance, for textual data the string "this is a string" should be encoded as 'this>is>a>string'.
+   - as for the sequence, it should be encoded as, for instance: ‘A,B,C>B,A>D>…’, that represents a sequence with itemset {A,B,C} followed by itemset {B,A}, followed by {D}. For instance, for textual data the string "this is a string" should be encoded as 'this>is>a>string'.
  - time series:
    - the name of the attribute should begin with "TS_"
    - as for the time series, it should be encoded as, for instance: ‘1.53,-2.5,3.6, …’
