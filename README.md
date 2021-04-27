@@ -4,7 +4,7 @@ This repository contains the JAR file of WEKA 3.9.1, modified to contain J48SS d
 The decision tree is capable of handling categorical, numerical, time series and sequential (e.g., text) data in a seamless way, during the same execution cycle in order to establish a prediction.
 
 ARFF files used by the algorithm are structured as usual.
-For what concerns sequential and time series features, they are encoded as string attributes, following the convention:
+For what concerns sequential and time series features, they are encoded as string attributes, following the conventions:
  - sequences:
         - the name of the attribute should begin with "SEQ_".
         - As for the sequence, it should be encoded as, for instance: ‘A,B,C>B,A>D>…’, that represents a sequence with itemset {A,B,C} followed by itemset {B,A}, followed by {A}. For instance, for textual data the string "this is a string" should be encoded as 'this>is>a>string'.
