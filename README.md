@@ -30,6 +30,8 @@ J48SS is based on J48, thus it inherits all its parameters. In addition, it also
     - maxTime: used to cut-off the search of the patterns after a certain amount of time, in seconds
     - useIGPruning: whether to use the IG scoring of the best non-sequential attribute found to guide the pruning of pattern search space (should be leaved to True)
 
+All attributes already come with their default values, although some tuning should be performed. This is especially true for patternWeight.
+
 More information can be found at:
 
 Andrea Brunello, Enrico Marzano, Angelo Montanari, and Guido Sciavicco
