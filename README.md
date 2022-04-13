@@ -4,7 +4,7 @@
  
 # J48SS: A Novel Decision Tree Approach for the Handling of Sequential and Time Series Data.
  
-[![Paper](https://img.shields.io/badge/paper-Computers-green)](https://www.mdpi.com/2073-431X/8/1/21/pdf)
+[![Paper](https://img.shields.io/badge/paper-Computers-yellowgreen)](https://www.mdpi.com/2073-431X/8/1/21/pdf)
 
  
  </div>
