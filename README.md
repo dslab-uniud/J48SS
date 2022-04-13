@@ -1,8 +1,21 @@
+
+---
+
+<div align="center">
 # J48SS
+ 
+ [![Paper](https://img.shields.io/badge/paper-Computers-green)](https://www.mdpi.com/2073-431X/8/1/21/pdf)
+
+ 
+ </div>
+
+## Description   
 
 This repository contains the JAR file of WEKA 3.9.1, modified to contain J48SS decision tree classifier.
 The decision tree is capable of handling categorical, numerical, time series and sequential (e.g., text) data in a seamless way, during the same execution cycle in order to establish a prediction.
 The model can be found under "trees.J48SS".
+
+## Usage  
 
 ARFF files used by the algorithm are structured as usual.
 For what concerns sequential and time series features, they are encoded as string attributes, following the conventions:
@@ -41,7 +54,7 @@ J48SS: A Novel Decision Tree Approach for the Handling of Sequential and Time Se
 MDPI, 2019
 ```
 
-Please cite the work as:
+### Citation   
 
 ```
 @article{brunello2019j48ss,
