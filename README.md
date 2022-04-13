@@ -1,10 +1,10 @@
-
 ---
 
 <div align="center">
+ 
 # J48SS
  
- [![Paper](https://img.shields.io/badge/paper-Computers-green)](https://www.mdpi.com/2073-431X/8/1/21/pdf)
+[![Paper](https://img.shields.io/badge/paper-Computers-green)](https://www.mdpi.com/2073-431X/8/1/21/pdf)
 
  
  </div>
